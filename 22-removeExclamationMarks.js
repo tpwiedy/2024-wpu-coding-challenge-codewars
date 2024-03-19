@@ -15,7 +15,11 @@
 // }
 
 // Cara 2
-function removeExclamationMarks(s) {
-  return s.split('!').join('')
-}
+// function removeExclamationMarks(s) {
+//   return s.split('!').join('')
+// }
+
+// Cara 3
+const removeExclamationMarks = (s) => s.split('!').join('')
+
 console.log(removeExclamationMarks('Hello World!'));
