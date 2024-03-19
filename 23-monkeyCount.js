@@ -2,6 +2,8 @@
 // 23/366
 // https://www.codewars.com/kata/56f69d9f9400f508fb000ba7
 
+// Cara 1
+
 // function monkeyCount(n) {
 //   const result = [];
 
@@ -12,6 +14,7 @@
 //   return result;
 // }
 
+// Cara 2
 const monkeyCount = (n) => Array.from({ length: n }, (v, i) => i + 1);
 
 console.log(monkeyCount(10));
